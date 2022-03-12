@@ -1,0 +1,12 @@
+/* body */
+$width-body: 3099;
+$font-montserrat: 'Montserrat';
+$font-inter: 'Inter';
+
+
+/* responsive font */
+@mixin responsive-font($pc-size, $mobile-size) {
+    $add-size: $pc-size - $mobile-size;
+    font-size: calc(#{$mobile-size + px} + #{$add-size} * ((100vw - 320px) / #{$width-body}));
+    $width-body: $width-body - 320;
+}
