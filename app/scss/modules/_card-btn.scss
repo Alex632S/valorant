@@ -1,0 +1,22 @@
+.nameplate-btn {
+    width: calc(219 / $width-body * 100vw);
+    cursor: pointer;
+    .nameplate__triangle {
+        width: 11px;
+    }
+    .nameplate__footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: calc(233 / $width-body * 100vw);
+    }
+    .nameplate__insert {
+        width: 100%;   
+    }
+    .nameplate-image__image {
+        width: 21px;
+        height: 18px;
+        margin-bottom: 15px;
+    }
+}

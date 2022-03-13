@@ -1,8 +1,12 @@
-/* body */
 $width-body: 3099;
+
 $font-montserrat: 'Montserrat';
 $font-inter: 'Inter';
 
+/* colors */
+$color-wheit: #FFFFFF;
+$color-black: #1F2326;
+$color-grey: #C4C4C4;
 
 /* responsive font */
 @mixin responsive-font($pc-size, $mobile-size) {

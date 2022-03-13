@@ -34,100 +34,12 @@ section.tab
 
    .content
       img.content__bg(src="./img/SVG/bg-title.svg" alt="text")
+      
       .card-main-flex
-         .card-main-wrap 
-            .card-main
-               .card-main__header
-                  .card-main-triangl
-                     object.card-main-body__title(type="image/svg+xml" data="./img/cards-main/SVG/title-01.svg")
-                  .card-main-insert
-               .card-main-body
-                  .card-main-hero
-                     img.card-main-hero__image(src="./img/cards-main/PNG/Art-01.png" alt="hero")
-               .card-main-bottom
-                  ul.card-main-bottom__list 
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-01(type="image/svg+xml" data="./img/cards-main/SVG/card-01-01.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-02(type="image/svg+xml" data="./img/cards-main/SVG/card-01-02.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-03(type="image/svg+xml" data="./img/cards-main/SVG/card-01-03.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-04(type="image/svg+xml" data="./img/cards-main/SVG/card-01-04.svg")
-         .card-main-wrap 
-            .card-main
-               .card-main__header
-                  .card-main-triangl
-                     object.card-main-body__title.card-main-body__title-02(type="image/svg+xml" data="./img/cards-main/SVG/title-02.svg")
-                  .card-main-insert
-               .card-main-body
-                  .card-main-hero
-                     img.card-main-hero__image(src="./img/cards-main/PNG/Art-02.png" alt="hero")
-               .card-main-bottom
-                  ul.card-main-bottom__list 
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-01(type="image/svg+xml" data="./img/cards-main/SVG/card-01-01.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-02(type="image/svg+xml" data="./img/cards-main/SVG/card-01-02.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-03(type="image/svg+xml" data="./img/cards-main/SVG/card-01-03.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-04(type="image/svg+xml" data="./img/cards-main/SVG/card-01-04.svg")
-         .card-main-wrap 
-            .card-main
-               .card-main__header
-                  .card-main-triangl
-                     object.card-main-body__title.card-main-body__title-03(type="image/svg+xml" data="./img/cards-main/SVG/title-03.svg")
-                  .card-main-insert
-               .card-main-body
-                  .card-main-hero
-                     img.card-main-hero__image(src="./img/cards-main/PNG/Art-03.png" alt="hero")
-               .card-main-bottom
-                  ul.card-main-bottom__list 
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-01(type="image/svg+xml" data="./img/cards-main/SVG/card-01-01.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-02(type="image/svg+xml" data="./img/cards-main/SVG/card-01-02.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-03(type="image/svg+xml" data="./img/cards-main/SVG/card-01-03.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-04(type="image/svg+xml" data="./img/cards-main/SVG/card-01-04.svg")
-         .card-main-wrap 
-            .card-main
-               .card-main__header
-                  .card-main-triangl
-                     object.card-main-body__title.card-main-body__title-04(type="image/svg+xml" data="./img/cards-main/SVG/title-04.svg")
-                  .card-main-insert
-               .card-main-body
-                  .card-main-hero
-                     img.card-main-hero__image(src="./img/cards-main/PNG/Art-04.png" alt="hero")
-               .card-main-bottom
-                  ul.card-main-bottom__list 
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-01(type="image/svg+xml" data="./img/cards-main/SVG/card-01-01.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-02(type="image/svg+xml" data="./img/cards-main/SVG/card-01-02.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-03(type="image/svg+xml" data="./img/cards-main/SVG/card-01-03.svg")
-                     li.item 
-                        a.card-main-bottom__link(href="#") 
-                           object.card-main-bottom__image.card-main-bottom__image-size-04(type="image/svg+xml" data="./img/cards-main/SVG/card-01-04.svg")
-
+         include card-01.pug
+         include card-02.pug
+         include card-03.pug
+         include card-04.pug
 
       .cards-description
          .nameplate

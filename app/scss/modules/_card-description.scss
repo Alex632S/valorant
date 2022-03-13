@@ -1,0 +1,82 @@
+.cards-description {
+    width: calc(2655 / $width-body * 100vw);
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(calc(100 / $width-body * -100vw));
+}
+
+/*------card with emblem------*/
+.nameplate {
+
+    width: calc(724 / $width-body * 100vw);
+}
+.nameplate__header {
+    display: flex;
+}
+.nameplate__triangle {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(-45deg, $color-wheit, $color-wheit 6px, $color-black 0, $color-black 7px, transparent 0);
+}
+.nameplate__insert {
+    background-color: $color-wheit;
+    width: 100%;
+    height: 10px;
+    border-top: 1px solid $color-black;
+    border-right: 1px solid $color-black;
+}
+
+.nameplate__footer {
+    height: calc(233 / $width-body * 100vw);
+    border: 1px solid $color-black;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    background-color: $color-wheit;
+}
+
+.nameplate-text-inner {
+    width: calc(290 / $width-body * 100vw);
+    background-color: $color-wheit;
+    margin-right: calc(68 / $width-body * 100vw);
+    &__title {
+        font-family: $font-inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $color-grey;
+    }
+    &__subtitle {
+        font-family: $font-inter;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    &__description {
+        font-size: 7px;
+        font-family: $font-montserrat;
+        line-height: 10px;
+        letter-spacing: 0.1em;
+        color: $color-black;
+        margin-bottom: calc(31 / $width-body * 100vw);
+    }
+}
+.nameplate-image {
+    padding-top: calc(16 / $width-body * 100vw);
+    width: calc(236 / $width-body * 100vw);
+    height: calc(215 / $width-body * 100vw);
+    align-self: flex-end;
+    &__image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.card-main-body__title-02 {
+    height: calc(284 / $width-body * 100vw);
+}
+.card-main-body__title-03,
+.card-main-body__title-04 {
+    height: calc(311 / $width-body * 100vw);
+}

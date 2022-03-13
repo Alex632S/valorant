@@ -16,7 +16,7 @@ a {
 .page__body {
     max-width: #{$width-body + px};
     margin: 0 auto;
-    background-color: #1F2326;
+    background-color: $color-black;
 }
 
 .main__page {
@@ -26,7 +26,6 @@ a {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-origin: inherit;
 
     .logo-wrap {
         display: flex;
@@ -41,6 +40,6 @@ a {
         font-family: $font-montserrat;
         font-weight: 700;
         @include responsive-font(32, 20);
-        color: #F8F8F8;
+        color: $color-wheit;
     }
 }
