@@ -59,7 +59,7 @@ export const images = () => {
             ]
          })
       ]))
-      .pipe(gulp.dest('dist/images'))
+      .pipe(gulp.dest('dist/img'))
 };
 
 export const build = () => {
