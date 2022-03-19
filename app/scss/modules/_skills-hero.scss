@@ -1,0 +1,110 @@
+.skills-hero {
+    position: relative;
+    width: calc(2157 / 3099 * 100vw);
+    height: calc(1367 / 3099 * 100vw);
+    display: flex;
+    justify-content: flex-end;
+
+    float: right;
+    align-items: center;
+    margin-top: calc(75 / 1520 * 100vw);
+    &__img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: calc(632 / 3099 * 100vw);
+    }
+}
+.container-content {
+    padding-left: calc(147 / 3099 * 100vw);;
+    width: calc((1932 - 147) / 3099 * 100vw);
+    height: calc(1164 / 3099 * 100vw);
+    background: rgba(31, 35, 38, 0.85);
+
+}
+.skills-hero-btn {
+    padding-top: calc(65 / 3099 * 100vw);
+    &__button {
+        font-family: $font-inter;
+        text-transform: uppercase;
+        font-weight: 700;
+        @include responsive-font(25, 20);
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+.box-card-content {
+}
+.box-badge {
+    display: flex;
+    align-items: center;
+    margin-top: calc(80 / 3099 * 100vw);
+
+    &__image {
+        width: calc(167 / 3099 * 100vw);
+        height: calc(167 / 3099 * 100vw);
+    }
+
+    &-text { 
+        margin-left: calc(29 / 3099 * 100vw);
+        font-family: $font-montserrat;
+        font-weight: 500;
+        @include responsive-font(24, 16);
+        color: #FFFFFF;
+    }
+    &-text__title {
+        text-transform: uppercase;
+    }
+    &-text__subtitle {
+    }
+}
+.box-card-content-description {
+    margin-top: calc(52 / 3099 * 100vw);
+    height: calc(340 / 3099 * 100vw);
+
+    &__text:first-child {
+        margin-bottom: 10px;
+    }
+    &__span {
+        font-weight: bold;
+    }
+    &__text {
+        width: calc(1000 / 3099 * 100vw);
+        font-family: $font-montserrat;
+        font-weight: 400;
+        @include responsive-font(12, 9);
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+}
+.skills-table {
+    padding-top: calc(20 / 3099 * 100vw);
+
+    &-row {
+        padding: 0;
+        width: calc(950 / 3099 * 100vw);
+        display: flex;
+        justify-content: space-between;
+    }
+    &-row__item {
+        border: inherit;
+        background: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(73 / 3099 * 100vw);
+        height: calc(73 / 3099 * 100vw);
+
+        opacity: .5;
+        cursor: pointer;
+    }
+    &-row__img {
+        width: calc(73 / 3099 * 100vw);
+        height: calc(73 / 3099 * 100vw);
+    }
+}
