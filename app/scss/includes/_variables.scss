@@ -14,3 +14,11 @@ $color-grey: #C4C4C4;
     font-size: calc(#{$mobile-size + px} + #{$add-size} * ((100vw - 320px) / #{$width-body}));
     $width-body: $width-body - 320;
 }
+
+@font-face {
+    font-family: "DrukWide"; 
+    src: url("../fonts/Druk-Wide-Medium.woff") format("woff"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+$font-DrukWide: "DrukWide";
